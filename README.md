@@ -21,7 +21,6 @@ The dataset includes multiple categories of variables, such as:
 - Quality of life indicators
 - Environmental exposure factors
 - Health behavior variables
-
 - ## Code information
 The main components of the code include:
 - Descriptive statistical analysis of the dataset
@@ -41,4 +40,23 @@ To reproduce the experiments reported in this study, please follow these steps:
 5. Run the notebook cells sequentially to execute the full experimental pipeline.
 ## Requirements
 The experiments require the following Python libraries:
-numpy, pandas, scikit-learn, scipy, matplotlib, seaborn, tensorflow, torch, xgboost, BorutaShap, KAN
+
+| Library       | Version       |
+|---------------|---------------|
+| numpy         | 2.3.5         |
+| pandas        | 3.0.0         |
+| scikit-learn  | 1.8.0         |
+| scipy         | 1.17.0        |
+| matplotlib    | 3.10.8        |
+| seaborn       | 0.13.2        |
+| tensorflow    | 2.20.0        |
+| torch         | 2.10.0+cpu    |
+| xgboost       | 3.1.3         |
+| BorutaShap    | borutashap-modern 1.1.0 |
+| KAN           | pykan 0.2.8   |
+## Software Environment
+-**Operating System**: Windows 11, version 10.0.26200, 64-bit (AMD64)  
+- **Processor Architecture**: x86_64 / AMD64  
+- **Python Version**: 3.13  
+- **Computing Device**: CPU (no GPU used)  
+- **Development Environment**: Jupyter Notebook 
